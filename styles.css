@@ -1,0 +1,29 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* classes */
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.logo {
+    align-self: flex-start;
+}
