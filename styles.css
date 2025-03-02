@@ -1,9 +1,21 @@
 * {
     font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    background-color: hsl(18, 22%, 91%);
+    /* logo-color: hsl(360, 90%, 44%) */
+    /* page-color: hsl(60, 1%, 85%); */
+    /* other-color: hsl(72, 10%, 20%); */
+    /* highlight-color: hsl(197, 78%, 64%); */
 }
 
 a {
     text-decoration: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 li {
@@ -15,15 +27,30 @@ li {
     display: flex;
     flex-direction: column;
     padding: 0px 20px;
+    margin: 0 auto;
 }
 
 .menu {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 20px;
 }
 
 .logo {
-    align-self: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    font-weight: bolder;
+    font-size: larger;
+    color: hsl(360, 90%, 44%);
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
 }
