@@ -1,9 +1,10 @@
 * {
     font-family: "Roboto", sans-serif;
     box-sizing: border-box;
-    background-color: hsl(18, 22%, 91%);
+    background-color: hsl(60, 1%, 85%);
     /* logo-color: hsl(360, 90%, 44%) */
     /* page-color: hsl(60, 1%, 85%); */
+    /* secondary-color: hsl(18, 22%, 91%); */
     /* other-color: hsl(72, 10%, 20%); */
     /* highlight-color: hsl(197, 78%, 64%); */
 }
@@ -22,11 +23,17 @@ li {
     list-style-type: none;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
 /* classes */
 .container {
     display: flex;
     flex-direction: column;
-    padding: 0px 20px;
     margin: 0 auto;
 }
 
@@ -36,6 +43,7 @@ li {
     flex-grow: 1;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0px 20px;
     gap: 20px;
 }
 
@@ -53,4 +61,28 @@ li {
     flex-direction: row;
     justify-content: flex-end;
     gap: 20px;
+}
+
+.general-info {
+    flex-direction: row;
+    padding: 0px 20px;
+    margin: 0 auto;
+}
+
+.previews {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.welcome-title {
+    font-size: 2.5em;
+    font-weight: bolder;
+    color: hsl(72, 10%, 20%);
 }
